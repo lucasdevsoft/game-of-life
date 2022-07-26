@@ -2,16 +2,16 @@ let canvas;
 let ctx;
 let fps = 30;
 
-let canvasX = 500;
-let canvasY = 500;
+let canvasX = 800;
+let canvasY = 800;
 
 let tileX, tileY;
 
 
 //Variable del tablero
 let tablero;
-let filas = 250;
-let columnas = 250;
+let filas = 200;
+let columnas = 200;
 
 let verde = "#9032bb";
 let gris = "#272727";
@@ -192,4 +192,9 @@ function principal() {
     dibujaTablero(tablero);
 }
 
-
+let n = 0;
+let l = document.getElementById("number");
+window.setInterval(function(){
+  l.innerHTML = n;
+  n++;
+},1000);
