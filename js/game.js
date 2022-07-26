@@ -2,16 +2,16 @@ let canvas;
 let ctx;
 let fps = 30;
 
-let canvasX = 750;
-let canvasY = 750;
+let canvasX = 600;
+let canvasY = 600;
 
 let tileX, tileY;
 
 
 //Variable del tablero
 let tablero;
-let filas = 250;
-let columnas = 250;
+let filas = 200;
+let columnas = 200;
 
 let verde = "#9032bb";
 let gris = "#272727";
