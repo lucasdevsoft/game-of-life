@@ -137,7 +137,7 @@ function inicializa() {
 
     //calculo del tamaño de canvas
     tileX = Math.floor(canvasX / filas);
-    tileY = Math.floor(canvasY / filas);
+    tileY = Math.floor(canvasY / columnas);
 
 
     //tablero creacion
