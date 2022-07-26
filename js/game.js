@@ -10,8 +10,8 @@ let tileX, tileY;
 
 //Variable del tablero
 let tablero;
-let filas = 200;
-let columnas = 200;
+let filas = 300;
+let columnas = 300;
 
 let verde = "#9032bb";
 let gris = "#272727";
