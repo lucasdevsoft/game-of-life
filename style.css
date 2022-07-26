@@ -9,5 +9,7 @@ body {
 
 
 #gen, #number {
-    font-size: 1.1 em;
+    width: 25%;
+    font-size: 1.3 em;
+    padding-bot: 10px;
 }
