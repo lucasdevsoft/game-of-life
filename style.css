@@ -49,7 +49,7 @@ header {
   width: 50%;
   justify-content: space-around;
   font-weight: bold;
-    margin-top: -15px;
+    margin-top: -12px;
 }
 
 
@@ -77,4 +77,12 @@ header {
 .menu li:hover a {
   background-color: #7fe421e7;
   color: #000;
+}
+
+.wrapper {
+  width: 100vw;
+  height: 100vh;
+  background: radial-gradient(100% 225% at 0% 0%, #1a1d0cbb 0%, #17250cf8 100%), radial-gradient(100% 225% at 100% 0%, #000000ec 0%, #21df348f 100%), linear-gradient(180deg, #707211c5 0%, #a9c545c5 100%), radial-gradient(100% 120% at 75% 0%, #3b962077 0%, #050c06ce 100%), linear-gradient(310deg, #13d896ab 0%, #2f3f2165 50%);
+    background-blend-mode: overlay, color-dodge, color-burn, color-dodge, normal;
+  color: #fff;
 }
