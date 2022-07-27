@@ -42,7 +42,7 @@ header {
 
 .menu {
   display: flex;
-  width: 50%;
+  width: 75%;
   justify-content: space-around;
   font-weight: bold;
     margin-top: -8px;
