@@ -1,4 +1,4 @@
-#<h2>The game of life</h2>
+<h2>The game of life</h2>
 
 Versión propia del juego de la vida de Conway
 
